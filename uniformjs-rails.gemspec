@@ -12,5 +12,5 @@ Gem::Specification.new do |gem|
   gem.name          = "uniformjs-rails"
   gem.require_paths = ["lib"]
   gem.version       = Uniformjs::Rails::VERSION
-  gem.add_dependency "railties", "~> 3.1"
+  gem.add_dependency "railties", "~> 4.1"
 end

@@ -1,5 +1,7 @@
 # Uniformjs::Rails
 
+[![Build Status](https://travis-ci.org/m1k3/uniformjs-rails.svg?branch=master)](https://travis-ci.org/m1k3/uniformjs-rails)
+
 TODO: Write a gem description
 
 ## Installation

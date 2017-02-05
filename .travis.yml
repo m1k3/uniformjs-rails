@@ -1,0 +1,19 @@
+language: ruby
+rvm:
+  - 2.4.0
+
+sudo: false
+cache:
+  bundler: true
+
+branches:
+  only:
+  - master
+
+deploy:
+  provider: rubygems
+  api_key:
+    secure: W8jUI8N289m9BLzkSrKkunEm2HJEpPCF/1DmblVfF3K+KIok8oUljTMAjAa8b6ZbwJzR4ES0Ilr1uUu5VMz+2lOhdwyi7Bwyxel+SahPzFpfuUCotT6Ygvt8HwaTujxVMXeOpkNDhuPi+juQIHh/zkUX4sx0VKIiHrJVl1iab3k=
+  gem: uniformjs-rails
+  on:
+    repo: m1k3/uniformjs-rails
